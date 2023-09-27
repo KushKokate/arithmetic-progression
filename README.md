@@ -1,2 +1,3 @@
 # arithmetic-progression
-i have used integers to make an ap series 
+i have used integers to make an ap series in this code i have used three variables to store the value of a,b,n. After which using java.scanner lib, the user can give the input. All the code in eclosed in a method called PrintSeries. We start with a variable called term that initially holds the value of a.
+We use a loop to calculate and print n terms in the series. In each iteration of the loop, we calculate the current term by adding 2^i * b to the previous term. The variable i starts from 0 and increases by 1 in each iteration. we print each calculated term followed by a space. After printing all n terms, we print a newline character (\n) to move to the next line for the next series.
